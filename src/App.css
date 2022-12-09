@@ -1,0 +1,44 @@
+:root {
+  /* Text */
+  --text-primary-light: black;
+  --text-primary-dark: white;
+  --bg-primary-light: white;
+
+  /* background */
+  --bg-primary-dark: black;
+  --bg-navbar-light: rgb(104, 104, 255);
+  --bg-navbar-dark: rgb(29, 29, 58);
+}
+
+.light-theme {
+  --text-primary: var(--text-primary-light);
+  --bg-primary: var(--bg-primary-light);
+  --bg-navbar: var(--bg-navbar-light);
+}
+
+.dark-theme {
+  --text-primary: var(--text-primary-dark);
+  --bg-primary: var(--bg-primary-dark);
+  --bg-navbar: var(--bg-navbar-dark);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+
+.App h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--text-primary);  font-size: 4rem;
+
+}

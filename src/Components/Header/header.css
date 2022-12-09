@@ -1,0 +1,27 @@
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-navbar);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-logo {
+  margin-left: 20px;
+  max-width: 80px;
+}
+
+.header-toggle-buttons button {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 8px 20px;
+    margin: 5px 10px;
+    border: 2px solid var(--text-primary);
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
