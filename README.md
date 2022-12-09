@@ -1,7 +1,5 @@
 # Toggle Theme in ReactJs
 ### A comprehensive guide to toggle between dark theme and light theme in ReactJs.
-Article: https://nimishjn.medium.com/toggle-theme-in-reactjs-4095dd35c69d  
-CodeSandbox: https://codesandbox.io/s/theme-toggle-h54n8
 
 ## Folder structure
 ```
